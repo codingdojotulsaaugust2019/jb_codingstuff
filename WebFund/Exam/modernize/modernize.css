@@ -1,0 +1,160 @@
+* {
+	padding: 0;
+    margin: 0;
+    }
+    #container {
+        margin: 0px auto;
+        height: 1220px;
+        width: 1000px;
+        background-color: rgb(24, 23, 23);
+    }
+        #header {
+            height: 110px;
+        }
+            #header img {
+                height: 70px;
+                margin: 20px 20px;
+            }
+            #header p {
+                width: 180px;
+                margin: 35px 0px 0px 535px;
+                display: inline-block;
+                vertical-align: top;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: white;
+            }
+        #nav_content {
+            height: 40px;
+            background-image: linear-gradient(rgb(82, 82, 82),rgb(24, 23, 23))
+        }
+            .top li {
+                height: 30px;
+                margin: 0px 0px 0px 0px;
+                padding: 10px 20px 0px 20px;
+                border-left: 2px solid rgb(97, 90, 90);
+                display: inline-block;
+                font-family: Arial, Helvetica, sans-serif;
+                color: lightgrey;
+            }
+            .top span {
+                color: white;
+            }
+        .main{
+            width: 1000px
+        }
+        #below_pic {
+            height: 170px;
+            background-color: rgb(24, 23, 23);
+        }
+            #below_pic .content {
+                height: 150px;
+                width: 233px;
+                margin: 17px 0px 0px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                display: inline-block;
+                vertical-align: top;
+            }
+                .content img, .content h3 {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                .content img {
+                    height: 40px;
+                    width: 45px;
+                    margin: 30px 0px 0px 20px;
+                }
+                .content h3 {
+                    margin: 35px 0px 0px 10px;
+                    color: orangered;
+                }
+                #below_pic .content p {
+                    width: 150px;
+                    margin: -10px 0px 0px 83px;
+                    font-size: .8em;
+                    color: lightgrey;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+        #mid_content {
+            height: 150px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: black;
+        }
+            #mid_content h2 {
+                margin: 40px 0px 0px 40px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            #mid_content p {
+                width: 630px;
+                margin: 10px 0px 0px 40px;
+                display: inline-block;
+                color: lightgrey;
+
+            }
+            #mid_content button {
+                height: 40px;
+                width: 120px;
+                margin: -15px 0px 0px 150px;
+                border-radius: 5px;
+                border: 1px solid orangered;
+                background-color: orangered;
+                display: inline-block;
+                vertical-align: top;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white
+            }
+        #low_content {
+            height: 390px;
+            background-color: rgb(24, 23, 23);
+        }
+            .low_top {
+                height: 65px;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .low_top h3 {
+                margin: 25px 0px 0px 25px; 
+                display: inline-block;
+                color: white;
+            }
+            .low_top a {
+                margin: 25px 0px 0px 750px;
+                font-size: .8em;
+                text-decoration: none;
+                font-style: italic;
+                color: orangered;
+            }
+            .low_bottom {
+                height: 280px;
+                width: 230px;
+                margin: 5px;
+                display: inline-block;
+                vertical-align: top;
+            }
+                .low_bottom img {
+                    height: 140px;
+                    border: 2px solid grey;
+                    margin: 5px 0px 0px 5px;
+                }
+                .low_bottom h3 {
+                    width: 200px;
+                    margin: 5px 0px 0px 15px;
+                    color: orangered;
+                }
+                .low_bottom p {
+                    width: 200px;
+                    margin: 10px 0px 0px 15px;
+                    font-size: .9em;
+                    color: lightgrey;
+                }
+                #low_content .top {
+                    margin: 5px 0px 0px 905px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: .7em;
+                    font-weight: bold;
+                    color: grey;
+                }
+            
