@@ -1,0 +1,47 @@
+*{
+    /* border: 1px solid lightgreen; */
+}
+
+.container {
+    width: 600px;
+    height: 900px;
+    margin: 0px auto;
+    padding: 10px;
+    background-image: radial-gradient(rgb(250, 11, 250), rgb(59, 26, 59));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    height: 40px;
+    margin: 10px;
+    color: white;
+    background-image: linear-gradient(orange, orangered);
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+}   
+.top {
+    height: 250px;
+}
+    .top img {
+        height: 150px;
+        display: block;
+    }
+.mid {
+    height: 300px;
+    
+}
+    .mid img {
+        height: 100px;
+    }
+    .mid input {
+        width: 300px;
+        height: 30px;
+        font-size: 1.2em;
+    }
+.bottom {
+    height: 100px;
+}
+    .bottom button {
+        margin-top: 200px;
+    }
